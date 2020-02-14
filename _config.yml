@@ -181,10 +181,10 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  Wechat: images/programmer_qrcode.jpg || wechat
-  E-Mail: dumphex@163.com || envelope
   GitHub: https://github.com/dumphex || github
   简书: https://www.jianshu.com/u/3151a9dcd169 || book
+  Wechat: images/programmer_qrcode.jpg || wechat
+  E-Mail: dumphex@163.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -400,7 +400,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/dumphex
   title: Follow me on GitHub
 
@@ -727,7 +727,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
